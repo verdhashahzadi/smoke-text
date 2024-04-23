@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+.smoke{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.smoke span{
+    position: relative;
+    color:blue ;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 60px;
+    animation: animate 3s linear infinite;
+}
+.smoke span:nth-child(1){
+    animation-delay: 0s;
+}
+.smoke span:nth-child(2){
+    animation-delay: 0.1s;
+}
+.smoke span:nth-child(3){
+    animation-delay: 0.2s;
+}
+.smoke span:nth-child(4){
+    animation-delay: 0.3s;
+}
+.smoke span:nth-child(5){
+    animation-delay: 0.4s;
+}
+.smoke span:nth-child(6){
+    animation-delay: 0.5s;
+}
+.smoke span:nth-child(7){
+    animation-delay: 0.6s;
+}
+.smoke span:nth-child(8){
+    animation-delay: 0.7s;
+}
+.smoke span:nth-child(9){
+    animation-delay: 0.8s;
+}
+.smoke span:nth-child(10){
+    animation-delay: 0.9s;
+}
+.smoke span:nth-child(11){
+    animation-delay: 0.10s;
+}
+.smoke span:nth-child(12){
+    animation-delay: 0.11s;
+}
+.smoke span:nth-child(13){
+    animation-delay: 0.12s;
+}
+.smoke span:nth-child(14){
+    animation-delay: 0.13s;
+}
+@keyframes animate {
+    0% {
+        filter: blur(0);
+    }
+    40% {
+        filter: blur(20px);
+    }
+    80% {
+        filter: blur(0);
+    }
+    100% {
+        filter: blur(0);
+    }
+}
